@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": 138.6,
+    "lat": -34.9333
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 27.68,
+    "feels_like": 27.59,
+    "temp_min": 26.28,
+    "temp_max": 29.01,
+    "pressure": 1009,
+    "humidity": 43
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 6.69,
+    "deg": 360
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1651118400,
+  "sys": {
+    "type": 2,
+    "id": 2001763,
+    "country": "AU",
+    "sunrise": 1651094338,
+    "sunset": 1651133226
+  },
+  "timezone": 34200,
+  "id": 2078025,
+  "name": "Adelaide",
+  "cod": 200
+}

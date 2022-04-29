@@ -1,0 +1,46 @@
+{
+  "coord": {
+    "lon": 130.8418,
+    "lat": -12.4611
+  },
+  "weather": [
+    {
+      "id": 500,
+      "main": "Rain",
+      "description": "light rain",
+      "icon": "10d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 32.86,
+    "feels_like": 38.48,
+    "temp_min": 32.72,
+    "temp_max": 33.92,
+    "pressure": 1009,
+    "humidity": 58
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.6,
+    "deg": 290
+  },
+  "rain": {
+    "1h": 0.14
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1651118740,
+  "sys": {
+    "type": 1,
+    "id": 9574,
+    "country": "AU",
+    "sunrise": 1651094592,
+    "sunset": 1651136695
+  },
+  "timezone": 34200,
+  "id": 2073124,
+  "name": "Darwin",
+  "cod": 200
+}

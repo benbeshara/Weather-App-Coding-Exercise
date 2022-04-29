@@ -1,0 +1,122 @@
+.weatherDisplay {
+  border-radius: 0.75em;
+  padding: 0.75em;
+  margin: 0.75em;
+  display: inline-block;
+  background-color: rgba(245, 245, 245, 0.25);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: -1;
+  flex: 1;
+}
+
+.d800 {
+  background-color: rgba(110, 126, 230, 0.75);
+}
+.n800 {
+  background-color: rgba(43, 51, 99, 0.75);
+}
+
+.d801 {
+  background-color: rgba(149, 153, 172, 0.75);
+}
+
+.n801 {
+  background-color: rgba(86, 88, 98, 0.75);
+}
+
+.d200,
+.d300,
+.d500,
+.d600 {
+  background-color: rgba(73, 117, 141, 0.75);
+}
+
+.n200,
+.n300,
+.n500,
+.n600 {
+  background-color: rgba(48, 57, 65, 0.75);
+}
+
+.cityName {
+  font-size: 2em;
+  color: white;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.weatherIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.weatherIconLoading {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  /* background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.3em; */
+  z-index: -1;
+}
+
+.temperature {
+  position: absolute;
+  bottom: 0.4em;
+  right: 0.8em;
+  z-index: -1;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.auxtemperature {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.weatherDisplayLoading {
+  border-radius: 0.75em;
+  padding: 0.75em;
+  margin: 0.75em;
+  display: inline-block;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: -1;
+  flex: 1;
+  animation-name: loading;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+.weatherDisplayError {
+  border-radius: 0.75em;
+  padding: 0.75em;
+  margin: 0.75em;
+  display: inline-block;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: -1;
+  flex: 1;
+  background-color: rgba(171, 7, 7, 0.621);
+}
+
+@keyframes loading {
+  0% {
+    background-color: rgba(196, 255, 255, 0.15);
+  }
+  50% {
+    background-color: rgba(196, 255, 255, 0.25);
+  }
+  100% {
+    background-color: rgba(196, 255, 255, 0.15);
+  }
+}

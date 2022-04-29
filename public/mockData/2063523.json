@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": 115.8333,
+    "lat": -31.9333
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 19.08,
+    "feels_like": 18.95,
+    "temp_min": 17.88,
+    "temp_max": 20.02,
+    "pressure": 1013,
+    "humidity": 73
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 8.23,
+    "deg": 170
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1651118548,
+  "sys": {
+    "type": 2,
+    "id": 63154,
+    "country": "AU",
+    "sunrise": 1651099552,
+    "sunset": 1651138939
+  },
+  "timezone": 28800,
+  "id": 2063523,
+  "name": "Perth",
+  "cod": 200
+}
